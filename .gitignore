@@ -18,3 +18,10 @@ broadcast/
 venv/
 bin/
 lib/
+.codegpt
+
+supra/
+.qodo
+
+
+*/node_modules/

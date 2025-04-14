@@ -21,7 +21,7 @@ contract DeploySupraEACOracleScript is Script {
         vm.startBroadcast(deployerPrivateKey);
         // console.log(address(0));
 
-        SupraEACAggregatorProxy oracleEth = new SupraEACAggregatorProxy(address(0), 0x63176Fd4dE041657352E9f7DdEF86189436fD48f, 0x070e2cC12542636570De4b3E96a513E12A14AA0F, 89, "0x"); //WETH
+        SupraEACAggregatorProxy oracleEth = new SupraEACAggregatorProxy(address(0), 0x63176Fd4dE041657352E9f7DdEF86189436fD48f, 0x070e2cC12542636570De4b3E96a513E12A14AA0F, 1, "0x"); //WETH
         
         // console.log("New Oracle Address:", address(oracleEth));
 
