@@ -69,5 +69,6 @@ $ cast --help
 
 - src/StorkEACProxy.sol
 - src/StorkEACProxy.sol
+- src/EmergencyEACProxy.sol
 - scripts/DeployStorkEACProxy.s.sol
 - scripts/DeploySupraEACProxy.s.sol
